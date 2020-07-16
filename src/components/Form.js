@@ -8,7 +8,7 @@ const Form = (props) => (
                 className="form-control"
                 placeholder="Enter a city"
                 type="text"
-                value={props.city}
+                value={props.inputValue}
                 onChange={props.change}
                 aria-describedby="helpCity"
             />
