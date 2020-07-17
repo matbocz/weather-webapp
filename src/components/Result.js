@@ -25,7 +25,7 @@ const Result = (props) => {
     let content = null;
 
     if (!error && city) {
-        const iconURL = "http://openweathermap.org/img/wn/" + icon + "@2x.png";
+        const iconURL = "https://openweathermap.org/img/wn/" + icon + "@2x.png";
 
         const sunriseTime = new Date(sunrise * 1000).toLocaleTimeString(
             "en-US"
