@@ -32,7 +32,6 @@ class Weather extends Component {
 
         fetch(API)
             .then((response) => {
-                console.log(response);
                 if (response.ok) {
                     return response;
                 }
@@ -54,7 +53,6 @@ class Weather extends Component {
                 });
             })
             .catch((err) => {
-                console.log(err);
                 this.setState({
                     error: true,
                     city: this.state.inputValue,
